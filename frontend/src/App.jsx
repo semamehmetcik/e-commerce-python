@@ -1,14 +1,17 @@
-
-import './App.css'
+import "./App.css";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Policy from "./components/Policy";
 
 function App() {
- 
-
   return (
     <>
- <h1>HELLO PYTHON</h1>
+      <Header />
+      <h1>HELLO PYTHON</h1>
+      <Policy/>
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
