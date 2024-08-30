@@ -1,11 +1,11 @@
-import React from "react";
 import "./App.css";
-import AuthPage from "./pages/AuthPage";
+import React from "react";
+import BlogDetailsPage from "./pages/BlogDetailsPage";
 
 function App() {
   return (
     <React.Fragment>
-      <AuthPage />
+      <BlogDetailsPage />
     </React.Fragment>
   );
 }
